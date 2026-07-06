@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+
+# Build
+dist/
+.vercel/
+
+# Environnement — ne JAMAIS committer de clé API
+.env
+.env.local
+.env.*.local
+
+# Divers
+.DS_Store
+*.log
